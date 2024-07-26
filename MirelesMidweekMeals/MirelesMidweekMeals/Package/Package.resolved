@@ -1,0 +1,15 @@
+{
+  "originHash" : "ffafbf89d0d396c742460376f5ee2956ebb427f4c7f13215fd8cf6f317375a29",
+  "pins" : [
+    {
+      "identity" : "openweb-ios-sdk-pod",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SpotIM/openweb-ios-sdk-pod.git",
+      "state" : {
+        "revision" : "64090fae3b2fdc29d2aa6e67f9ef538a8381b110",
+        "version" : "2.3.3"
+      }
+    }
+  ],
+  "version" : 3
+}

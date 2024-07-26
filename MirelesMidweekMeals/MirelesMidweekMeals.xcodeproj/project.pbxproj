@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		866806CA2C524C7E0065AC70 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866806C92C524C7E0065AC70 /* Preview.swift */; };
+		866806CC2C524C7F0065AC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866806CB2C524C7F0065AC70 /* Assets.xcassets */; };
+		866806CF2C524C7F0065AC70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866806CE2C524C7F0065AC70 /* Preview Assets.xcassets */; };
+		86ADD4192C53A55500BDB5ED /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ADD4182C53A55500BDB5ED /* Recipes.swift */; };
+		86ADD4202C53AB6300BDB5ED /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ADD41F2C53AB6300BDB5ED /* RecipesView.swift */; };
+		86ADD4222C53ABE100BDB5ED /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ADD4212C53ABE100BDB5ED /* HomePageView.swift */; };
+		86ADD4242C53AC0300BDB5ED /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ADD4232C53AC0300BDB5ED /* RecipeView.swift */; };
+		86ADD4272C53B1BE00BDB5ED /* OpenWebSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 86ADD4262C53B1BE00BDB5ED /* OpenWebSDK */; };
+		86ADD42C2C53B1F400BDB5ED /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86ADD4282C53B1F400BDB5ED /* RxCocoa.xcframework */; };
+		86ADD42D2C53B1F400BDB5ED /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86ADD4292C53B1F400BDB5ED /* RxRelay.xcframework */; };
+		86ADD42E2C53B1F400BDB5ED /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86ADD42A2C53B1F400BDB5ED /* RxSwift.xcframework */; };
+		86ADD4302C53B2F400BDB5ED /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ADD42F2C53B2F400BDB5ED /* Article.swift */; };
+		86ADD4332C53B4D600BDB5ED /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ADD4322C53B4D600BDB5ED /* Conversation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		866806C42C524C7E0065AC70 /* MirelesMidweekMeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MirelesMidweekMeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		866806C92C524C7E0065AC70 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		866806CB2C524C7F0065AC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		866806CE2C524C7F0065AC70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86ADD4182C53A55500BDB5ED /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
+		86ADD41F2C53AB6300BDB5ED /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		86ADD4212C53ABE100BDB5ED /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		86ADD4232C53AC0300BDB5ED /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		86ADD4282C53B1F400BDB5ED /* RxCocoa.xcframework */ = {isa = PBXFileReference; expectedSignature = "SelfSigned:BD802E794C8ABDDA4C3F5D92B3E4C4FBFAE4734410B9AD73442EF1CEB0276140"; lastKnownFileType = wrapper.xcframework; path = RxCocoa.xcframework; sourceTree = "<group>"; };
+		86ADD4292C53B1F400BDB5ED /* RxRelay.xcframework */ = {isa = PBXFileReference; expectedSignature = "SelfSigned:BD802E794C8ABDDA4C3F5D92B3E4C4FBFAE4734410B9AD73442EF1CEB0276140"; lastKnownFileType = wrapper.xcframework; path = RxRelay.xcframework; sourceTree = "<group>"; };
+		86ADD42A2C53B1F400BDB5ED /* RxSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "SelfSigned:BD802E794C8ABDDA4C3F5D92B3E4C4FBFAE4734410B9AD73442EF1CEB0276140"; lastKnownFileType = wrapper.xcframework; path = RxSwift.xcframework; sourceTree = "<group>"; };
+		86ADD42F2C53B2F400BDB5ED /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		86ADD4322C53B4D600BDB5ED /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		866806C12C524C7E0065AC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86ADD42D2C53B1F400BDB5ED /* RxRelay.xcframework in Frameworks */,
+				86ADD42E2C53B1F400BDB5ED /* RxSwift.xcframework in Frameworks */,
+				86ADD4272C53B1BE00BDB5ED /* OpenWebSDK in Frameworks */,
+				86ADD42C2C53B1F400BDB5ED /* RxCocoa.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		866806BB2C524C7E0065AC70 = {
+			isa = PBXGroup;
+			children = (
+				86ADD42B2C53B1F400BDB5ED /* Vendor-Frameworks */,
+				866806C62C524C7E0065AC70 /* MirelesMidweekMeals */,
+				866806C52C524C7E0065AC70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		866806C52C524C7E0065AC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				866806C42C524C7E0065AC70 /* MirelesMidweekMeals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		866806C62C524C7E0065AC70 /* MirelesMidweekMeals */ = {
+			isa = PBXGroup;
+			children = (
+				86ADD4312C53B44D00BDB5ED /* OpenWeb */,
+				86ADD41C2C53A85200BDB5ED /* Models */,
+				86ADD41B2C53A69700BDB5ED /* Views */,
+				866806C92C524C7E0065AC70 /* Preview.swift */,
+				866806CD2C524C7F0065AC70 /* Content */,
+			);
+			path = MirelesMidweekMeals;
+			sourceTree = "<group>";
+		};
+		866806CD2C524C7F0065AC70 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				866806CB2C524C7F0065AC70 /* Assets.xcassets */,
+				866806CE2C524C7F0065AC70 /* Preview Assets.xcassets */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		86ADD41B2C53A69700BDB5ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86ADD41F2C53AB6300BDB5ED /* RecipesView.swift */,
+				86ADD4212C53ABE100BDB5ED /* HomePageView.swift */,
+				86ADD4232C53AC0300BDB5ED /* RecipeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86ADD41C2C53A85200BDB5ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86ADD4182C53A55500BDB5ED /* Recipes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86ADD42B2C53B1F400BDB5ED /* Vendor-Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86ADD4282C53B1F400BDB5ED /* RxCocoa.xcframework */,
+				86ADD4292C53B1F400BDB5ED /* RxRelay.xcframework */,
+				86ADD42A2C53B1F400BDB5ED /* RxSwift.xcframework */,
+			);
+			name = "Vendor-Frameworks";
+			path = "../../../Downloads/openweb-ios-vendor-frameworks-main 2/Vendor-Frameworks";
+			sourceTree = "<group>";
+		};
+		86ADD4312C53B44D00BDB5ED /* OpenWeb */ = {
+			isa = PBXGroup;
+			children = (
+				86ADD42F2C53B2F400BDB5ED /* Article.swift */,
+				86ADD4322C53B4D600BDB5ED /* Conversation.swift */,
+			);
+			path = OpenWeb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		866806C32C524C7E0065AC70 /* MirelesMidweekMeals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 866806D22C524C7F0065AC70 /* Build configuration list for PBXNativeTarget "MirelesMidweekMeals" */;
+			buildPhases = (
+				866806C02C524C7E0065AC70 /* Sources */,
+				866806C12C524C7E0065AC70 /* Frameworks */,
+				866806C22C524C7E0065AC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MirelesMidweekMeals;
+			packageProductDependencies = (
+				86ADD4262C53B1BE00BDB5ED /* OpenWebSDK */,
+			);
+			productName = MirelesMidweekMeals;
+			productReference = 866806C42C524C7E0065AC70 /* MirelesMidweekMeals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		866806BC2C524C7E0065AC70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					866806C32C524C7E0065AC70 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 866806BF2C524C7E0065AC70 /* Build configuration list for PBXProject "MirelesMidweekMeals" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 866806BB2C524C7E0065AC70;
+			packageReferences = (
+				86ADD4252C53B1BD00BDB5ED /* XCRemoteSwiftPackageReference "openweb-ios-sdk-pod" */,
+			);
+			productRefGroup = 866806C52C524C7E0065AC70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				866806C32C524C7E0065AC70 /* MirelesMidweekMeals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		866806C22C524C7E0065AC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866806CF2C524C7F0065AC70 /* Preview Assets.xcassets in Resources */,
+				866806CC2C524C7F0065AC70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		866806C02C524C7E0065AC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				866806CA2C524C7E0065AC70 /* Preview.swift in Sources */,
+				86ADD4192C53A55500BDB5ED /* Recipes.swift in Sources */,
+				86ADD4302C53B2F400BDB5ED /* Article.swift in Sources */,
+				86ADD4222C53ABE100BDB5ED /* HomePageView.swift in Sources */,
+				86ADD4332C53B4D600BDB5ED /* Conversation.swift in Sources */,
+				86ADD4202C53AB6300BDB5ED /* RecipesView.swift in Sources */,
+				86ADD4242C53AC0300BDB5ED /* RecipeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		866806D02C524C7F0065AC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		866806D12C524C7F0065AC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		866806D32C524C7F0065AC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MirelesMidweekMeals/Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = openweb.MirelesMidweekMeals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		866806D42C524C7F0065AC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MirelesMidweekMeals/Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = openweb.MirelesMidweekMeals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		866806BF2C524C7E0065AC70 /* Build configuration list for PBXProject "MirelesMidweekMeals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866806D02C524C7F0065AC70 /* Debug */,
+				866806D12C524C7F0065AC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		866806D22C524C7F0065AC70 /* Build configuration list for PBXNativeTarget "MirelesMidweekMeals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				866806D32C524C7F0065AC70 /* Debug */,
+				866806D42C524C7F0065AC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86ADD4252C53B1BD00BDB5ED /* XCRemoteSwiftPackageReference "openweb-ios-sdk-pod" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SpotIM/openweb-ios-sdk-pod.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86ADD4262C53B1BE00BDB5ED /* OpenWebSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86ADD4252C53B1BD00BDB5ED /* XCRemoteSwiftPackageReference "openweb-ios-sdk-pod" */;
+			productName = OpenWebSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 866806BC2C524C7E0065AC70 /* Project object */;
+}
