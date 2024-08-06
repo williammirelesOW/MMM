@@ -55,7 +55,7 @@ let sampleRecipes = [
             "Rice"
            ],
            instructions: """
-           Ask Daddy to make it (nicely ;)
+           Ask William
            """,
            photo: "greencurry")
 ]
